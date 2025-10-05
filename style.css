@@ -1,0 +1,36 @@
+body {
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  width: 99vw;
+  min-height: 99vh;
+}
+
+#score {
+  position: absolute;
+  color: white;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: rgb(32, 124, 193);
+  width: 100px;
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+}
+
+#aim {
+  position: absolute;
+  width: 60px;
+  pointer-events: none;
+}
+
+#baird {
+  width: 150px;
+  height: 150px;
+  background: url("https://i.gifer.com/ZN2g.gif") no-repeat center / contain;
+  position: absolute;
+}
